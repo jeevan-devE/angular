@@ -3201,7 +3201,7 @@
     "@devexpress/utils" "1.3.2"
     "tslib" "2.1.0"
 
-"devextreme-angular@^21.1.3":
+"devextreme-angular@21.1.3":
   "integrity" "sha512-+hN+H72lR6frsEO+IuESyjACQ/dax/pxu/U8Myhnc/b0cdwtstku422UYDnhTKeIqoExQK+vo6mtbgAPRYwJLg=="
   "resolved" "https://registry.npmjs.org/devextreme-angular/-/devextreme-angular-21.1.3.tgz"
   "version" "21.1.3"
@@ -3234,7 +3234,7 @@
     "rxjs" "~6.4.0"
     "typescript" "~4.3.1"
 
-"devextreme@^21.1.3", "devextreme@~21.1.3":
+"devextreme@~21.1.3", "devextreme@21.1.3":
   "integrity" "sha512-p2Pite6+pSSJAdPekxl5po1177MIJLePG93CsWRr1zHJhxgR1XO2q29ciW1W3Kl32sX4EYN2C49pMAZOCvu9uA=="
   "resolved" "https://registry.npmjs.org/devextreme/-/devextreme-21.1.3.tgz"
   "version" "21.1.3"

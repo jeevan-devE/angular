@@ -39,9 +39,9 @@ import { SidebarLogoComponent } from './layout/sidebar-logo.component';
 import { SidebarUserPanelComponent } from './layout/sidebar-user-panel.component';
 import { SidebarMenuComponent } from './layout/sidebar-menu.component';
 import { RegistrationComponent } from './registration/registration.component';
-//import { DevExtremeModule, DxBulletModule, DxCheckBoxModule, DxDataGridModule, DxDropDownBoxModule, DxFormModule, DxNumberBoxModule, DxSelectBoxModule, DxTabPanelModule, DxTemplateModule, DxTextBoxModule } from 'devextreme-angular';
+import { DevExtremeModule, DxBulletModule, DxCheckBoxModule, DxDataGridModule, DxDropDownBoxModule, DxFormModule, DxNumberBoxModule, DxSelectBoxModule, DxTabPanelModule, DxTemplateModule, DxTextBoxModule } from 'devextreme-angular';
 // import { DxButtonModule } from 'devextreme-angular';
-import { DxDataGridModule } from 'devextreme-angular';
+//import { DxDataGridModule } from 'devextreme-angular';
 // import { DxDropDownBoxModule } from 'devextreme-angular';
 // import { DxSelectBoxModule } from 'devextreme-angular';
 @NgModule({
@@ -90,22 +90,21 @@ import { DxDataGridModule } from 'devextreme-angular';
     SharedModule,
     NgxPaginationModule,
     // DxButtonModule,
-    DxDataGridModule
+    DxDataGridModule,
     // DxDropDownBoxModule,
     // DxSelectBoxModule
 
 
-    // DevExtremeModule,
-    // DxBulletModule,
-    //  DxCheckBoxModule, 
-    //  DxDataGridModule, 
-    //  DxDropDownBoxModule, 
-    //  DxFormModule, 
-    //  DxNumberBoxModule, 
-    //  DxSelectBoxModule, 
-    //  DxTabPanelModule, 
-    //  DxTemplateModule, 
-    //  DxTextBoxModule,
+     DevExtremeModule,
+     DxBulletModule,
+     DxCheckBoxModule, 
+     DxDropDownBoxModule, 
+     DxFormModule, 
+     DxNumberBoxModule, 
+     DxSelectBoxModule, 
+     DxTabPanelModule, 
+    DxTemplateModule, 
+   DxTextBoxModule,
   ],
   providers: [],
   entryComponents: [
